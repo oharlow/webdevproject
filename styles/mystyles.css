@@ -1,0 +1,80 @@
+/* Oliver Harlow, last edited 4/16/22 */
+
+#main {
+    background-image: url(../images/finland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header#mainheader, header#mainheader:before {
+    background: transparent;
+}
+
+#mainNav .navbar-brand, #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    color: #666;
+}
+
+body#aboutme #mainNav .navbar-brand, body#aboutme #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    color: #fff;
+}
+
+.picture {
+    max-height: 300px;
+    max-width: 350px;
+}
+
+iframe {
+    display: block;
+    margin: auto;    
+}
+
+.italic {
+    font-style: italic;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+}
+
+#backtotop {
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav a {
+    padding: 10px 20px 10px 20px;
+    border-right: 1px solid #999999;
+}
+
+#nav a:hover {
+    background: #999999;
+    color: #fff;
+}
+
+#nav a.navfirst {
+    padding-left: 20px;
+}
+
+#nav a.navlast {
+    border-right: none;
+}
+
+#contact {
+    padding: 15px 0 15px 0;
+}
+
+.footertext {
+    color: white;
+}

@@ -1,0 +1,55 @@
+/* Oliver Harlow, last edited 4/16/22 */
+
+
+body {
+    background-image: url(../images/sky.jpeg);
+    background-size: cover;
+}
+
+.header {
+    text-align: right;
+    position: relative;
+}
+
+div.tableaurow {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+div.tableauWrapper {
+    width: 49%;
+    float: left;
+    margin: 0;
+    padding-right: 2%;
+}
+
+div.tableauWrapper.tableaulast {
+    padding-right: 0;
+
+}
+
+div.clear {
+    clear: both;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 24pt;
+}
+
+footer {
+    clear: both;
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+}
